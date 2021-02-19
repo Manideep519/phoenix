@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/phoenix`,
   siteMetadata: {
     title: `Phoenix Lion`,
     description: `Description of phoenix lion`,
