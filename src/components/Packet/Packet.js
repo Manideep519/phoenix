@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import ContentWrapper from "../ContentWrapper/contentWrapper"
 
 const Packet = props => {

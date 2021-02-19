@@ -28,7 +28,7 @@ const Header = () => {
           <Link to="/">
             <Img
               fixed={data.navLogo.childImageSharp.fixed}
-              alt="Gatsby Docs are awesome"
+              alt="Phoenix Lion logo"
             />
           </Link>
 

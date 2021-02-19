@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react"
+import { useEffect } from "react"
 
-function Page(props) {
+const Page = props => {
   useEffect(() => window.scrollTo(0, 0), [])
-
   return props.children
 }
 
