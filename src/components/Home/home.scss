@@ -1,0 +1,48 @@
+.home__bg {
+  background-image: url("../../images/intro_bg.png");
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  z-index: 1;
+}
+
+.home__flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  a.intro-link {
+    position: absolute;
+    bottom: 15px;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+.home__intro-stage {
+  position: absolute;
+  bottom: 0;
+  width: 97%;
+  max-width: 500px;
+  z-index: -1;
+  opacity: 0.95;
+  display: block;
+  margin: 0 auto;
+}
+
+.home__logo-gif {
+  max-width: 320px;
+  width: 90%;
+  padding: 10px 10px 25px;
+}
+
+.home__title {
+  max-width: 600px;
+  width: 90%;
+  padding: 10px 10px 100px;
+}

@@ -1,0 +1,29 @@
+.content-wrapper {
+  position: relative;
+  background: url(https://phoenix-lion.com/assets/ip-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 65px;
+}
+.content-wrapper .container .row {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.content-wrapper .container .row h2 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.content-wrapper .container .row h2 span {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2rem;
+}
+.content-wrapper .container .row p {
+  color: #dcdcdc;
+}
